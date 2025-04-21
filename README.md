@@ -36,7 +36,7 @@ This will produce a valid `SerumPreset` that you can load into Serum 2.
 
 Kudos to [@0xdevalias](https://github.com/0xdevalias) for [his Gist](https://gist.github.com/0xdevalias/5a06349b376d01b2a76ad27a86b08c1b) on the reverse engineering of the preset file format. That sparked my interest to look further into it.
 
-The file is structed as:
+The file is structured like:
 1. Header + metadata JSON (`b"XferJson\x00" + uint64_le(len(json)) + json-bytes`)
 2. Zstandard compressed CBOR payload (`uint32_le(len(cbor)) + uint32_le(2) + zstd‑frame(cbor-bytes)`)
 
