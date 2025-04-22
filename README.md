@@ -14,7 +14,7 @@ The file format was not open so far and it took a bit of reverse engineering to 
 Unpacking will decompress and dump the data in the preset file into a JSON file.
 
 > [!NOTE]  
-> The tool also supports some other file extensions used by Serum 2 like `.XferArpBank`. The legacy `.fxp` is NOT supported.
+> The tool also supports some other file extensions used by Serum 2 like `.XferArpBank`. The legacy `.fxp` is [NOT supported](https://github.com/KennethWussmann/serum-preset-packager/issues/1).
  
 ```shell
 python cli.py unpack MyPreset.SerumPreset MyPreset.json
