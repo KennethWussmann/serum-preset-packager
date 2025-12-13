@@ -1,0 +1,2421 @@
+# serializer version: 1
+# name: test_metadata_preserved
+  dict({
+    'fileType': 'SerumPreset',
+    'hash': '2903d257d8f3efeb21d6c84c0fa5abca',
+    'presetAuthor': 'Test123',
+    'presetDescription': 'Test123',
+    'presetName': 'Test123',
+    'product': 'Serum2',
+    'productVersion': '2.0.17',
+    'tags': list([
+      'Wavetable',
+      'Mono',
+    ]),
+    'url': 'https://xferrecords.com/',
+    'vendor': 'Xfer Records',
+    'version': 7.0,
+  })
+# ---
+# name: test_round_trip_conversion
+  dict({
+    'data': dict({
+      'Arp0': dict({
+        'plainParams': 'default',
+      }),
+      'ArpClip0': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip1': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip10': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip11': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip2': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip3': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip4': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip5': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip6': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip7': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip8': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip9': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ClipPlayer': dict({
+        'kUIParamPianoRollNotePreview': 1.0,
+        'kUIParamPreviewClip': 0.0,
+        'kUIParamSelectedClip': 0.0,
+      }),
+      'ClipPlayer0': dict({
+        'plainParams': 'default',
+      }),
+      'Env0': dict({
+        'plainParams': dict({
+          'kParamAttack': 0.0005153631860372542,
+          'kParamCurve1': 49.950000643730164,
+          'kParamCurve2': 66.60000085830688,
+          'kParamCurve3': 66.60000085830688,
+          'kParamRelease': 0.014700845522658545,
+        }),
+      }),
+      'Env1': dict({
+        'plainParams': dict({
+          'kParamAttack': 0.0005153631860372542,
+          'kParamCurve1': 49.950000643730164,
+          'kParamCurve2': 66.60000085830688,
+          'kParamCurve3': 66.60000085830688,
+          'kParamRelease': 0.014700845522658545,
+        }),
+      }),
+      'Env2': dict({
+        'plainParams': dict({
+          'kParamAttack': 0.0005153631860372542,
+          'kParamCurve1': 49.950000643730164,
+          'kParamCurve2': 66.60000085830688,
+          'kParamCurve3': 66.60000085830688,
+          'kParamRelease': 0.014700845522658545,
+        }),
+      }),
+      'Env3': dict({
+        'plainParams': dict({
+          'kParamCurve1': 50.0,
+          'kParamCurve2': 66.60000000000001,
+          'kParamCurve3': 66.60000000000001,
+        }),
+      }),
+      'FXRack0': dict({
+        'FX': list([
+          dict({
+            'FXHyperD': dict({
+              'lfo': list([
+                list([
+                  0.9194614291191101,
+                  0.08975490182638168,
+                  0.5845403671264648,
+                  0.286531537771225,
+                  0.8271082043647766,
+                  0.6682987809181213,
+                  0.08552838116884232,
+                  0.7215851545333862,
+                ]),
+                list([
+                  0.9865029454231262,
+                  0.8898591995239258,
+                  0.6562260389328003,
+                  0.600176215171814,
+                  0.5416178703308105,
+                  0.5513129234313965,
+                  0.8703054189682007,
+                  0.1764964610338211,
+                ]),
+              ]),
+              'plainParams': dict({
+                'kParamDetune': 52.19298005104065,
+                'kParamDimESize': 68.85964870452881,
+                'kParamRate': 4.473684728145599,
+                'kParamUnison': 4.000000178813934,
+                'kParamWet': 38.15789520740509,
+              }),
+            }),
+            'kUIParamMixOrGainDimE': 0.0,
+            'kUIParamMixOrGainHyper': 0.0,
+            'type': 9,
+          }),
+          dict({
+            'FXDistortion': dict({
+              'plainParams': dict({
+                'kParamDrive': 76.31579041481018,
+                'kParamFreq': 0.4678362573099415,
+                'kParamMode': 'kDiode2',
+                'kParamWet': 77.63158082962036,
+              }),
+            }),
+            'flex': list([
+              dict({
+                'curveVals': list([
+                  0.4999999701976776,
+                  0.4999999701976776,
+                ]),
+                'numPoints': 1,
+                'xVals': list([
+                  0.0,
+                  1.0,
+                ]),
+                'yVals': list([
+                  1.0,
+                  0.0,
+                ]),
+              }),
+              dict({
+                'curveVals': list([
+                  0.4999999701976776,
+                  0.4999999701976776,
+                ]),
+                'numPoints': 1,
+                'xVals': list([
+                  0.0,
+                  1.0,
+                ]),
+                'yVals': list([
+                  1.0,
+                  0.0,
+                ]),
+              }),
+            ]),
+            'kUIParamMixOrGain': 0.0,
+            'type': 0,
+          }),
+          dict({
+            'FXComp': dict({
+              'plainParams': dict({
+                'kParamAttack': 90.09100715319826,
+                'kParamCompensatedWetDry': 0.0,
+                'kParamGain0': 4.6,
+                'kParamGain2': 4.6,
+                'kParamMakeup': 1.7900507059481465,
+                'kParamRatioBelow': 0.75,
+                'kParamRelease': 89.92907295688329,
+              }),
+            }),
+            'kUIParamMixOrGain': 0.0,
+            'type': 5,
+          }),
+        ]),
+        'displayName': '',
+        'plainParams': 'default',
+      }),
+      'FXRack1': dict({
+        'FX': list([
+        ]),
+        'displayName': '',
+        'plainParams': 'default',
+      }),
+      'FXRack2': dict({
+        'FX': list([
+        ]),
+        'displayName': '',
+        'plainParams': 'default',
+      }),
+      'Filter': dict({
+        'kUIParamMixOrGain': 0.0,
+      }),
+      'Global0': dict({
+        'plainParams': dict({
+          'kParamLimitSameNotePolyphony': 1.0,
+          'kParamMasterVolume': 0.29297234014183177,
+          'kParamMonoToggle': 1.0,
+          'kParamPolyCount': 16.0,
+          'kParamS1Compatibility': 1.0,
+        }),
+      }),
+      'GranularOsc': list([
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+        }),
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+        }),
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+        }),
+      ]),
+      'LFO0': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+        }),
+      }),
+      'LFO1': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+          'kParamRate': 0.6208409237655205,
+        }),
+      }),
+      'LFO2': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+          'kParamRate': 0.5829385022370225,
+        }),
+      }),
+      'LFO3': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+          'kParamRate': 0.03880257421413955,
+        }),
+      }),
+      'LFO4': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+        }),
+      }),
+      'LFO5': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+        }),
+      }),
+      'LFO6': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+        }),
+      }),
+      'LFO7': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+        }),
+      }),
+      'LFO8': dict({
+        'curveData': dict({
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamBeatSync': 0.0,
+          'kParamDefaultMode': 0.0,
+          'kParamDotted': 1.0,
+          'kParamRate': 0.10000069729266844,
+          'kParamRate10x': 1.0,
+          'kParamTriplets': 1.0,
+          'kParamType': 'Lorenz',
+        }),
+      }),
+      'LFO9': dict({
+        'curveData': dict({
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamBeatSync': 0.0,
+          'kParamDefaultMode': 0.0,
+          'kParamDotted': 1.0,
+          'kParamRate': 0.10000069729266844,
+          'kParamRate10x': 1.0,
+          'kParamTriplets': 1.0,
+          'kParamType': 'Rossler',
+        }),
+      }),
+      'LFOPointModBus0': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus1': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus10': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus11': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus12': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus13': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus14': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus15': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus2': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus3': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus4': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus5': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus6': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus7': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus8': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus9': dict({
+        'plainParams': 'default',
+      }),
+      'Macro0': dict({
+        'name': 'Macro 1',
+        'plainParams': dict({
+          'kParamValue': 82.8947365283966,
+        }),
+      }),
+      'Macro1': dict({
+        'plainParams': 'default',
+      }),
+      'Macro2': dict({
+        'plainParams': 'default',
+      }),
+      'Macro3': dict({
+        'plainParams': 'default',
+      }),
+      'Macro4': dict({
+        'plainParams': 'default',
+      }),
+      'Macro5': dict({
+        'plainParams': 'default',
+      }),
+      'Macro6': dict({
+        'plainParams': 'default',
+      }),
+      'Macro7': dict({
+        'plainParams': 'default',
+      }),
+      'MidiClip0': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip1': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip10': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip11': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip2': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip3': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip4': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip5': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip6': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip7': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip8': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip9': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ModSlot0': dict({
+        'destModuleID': 0,
+        'destModuleParamID': 0,
+        'destModuleParamName': 'kParamWarp',
+        'destModuleTypeString': 'WTOsc',
+        'plainParams': dict({
+          'kParamAmount': -30.70175051689148,
+        }),
+        'source': list([
+          7,
+          0,
+        ]),
+      }),
+      'ModSlot1': dict({
+        'destModuleID': 0,
+        'destModuleParamID': 3,
+        'destModuleParamName': 'kParamFreq',
+        'destModuleTypeString': 'VoiceFilter',
+        'plainParams': dict({
+          'kParamAmount': 15.350878238677979,
+        }),
+        'source': list([
+          8,
+          0,
+        ]),
+      }),
+      'ModSlot10': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot11': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot12': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot13': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot14': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot15': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot16': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot17': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot18': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot19': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot2': dict({
+        'destModuleID': 1,
+        'destModuleParamID': 0,
+        'destModuleParamName': 'kParamWarp',
+        'destModuleTypeString': 'WTOsc',
+        'plainParams': dict({
+          'kParamAmount': 0.1999974250793457,
+        }),
+        'source': list([
+          9,
+          0,
+        ]),
+      }),
+      'ModSlot20': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot21': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot22': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot23': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot24': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot25': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot26': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot27': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot28': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot29': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot3': dict({
+        'destModuleID': 3,
+        'destModuleParamID': 0,
+        'destModuleParamName': 'kParamColor',
+        'destModuleTypeString': 'NoiseOsc',
+        'plainParams': dict({
+          'kParamAmount': -61.40352487564087,
+          'kParamBipolar': 1.0,
+        }),
+        'source': list([
+          25,
+          0,
+        ]),
+      }),
+      'ModSlot30': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot31': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot32': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot33': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot34': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot35': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot36': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot37': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot38': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot39': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot4': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot40': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot41': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot42': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot43': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot44': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot45': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot46': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot47': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot48': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot49': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot5': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot50': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot51': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot52': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot53': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot54': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot55': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot56': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot57': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot58': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot59': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot6': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot60': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot61': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot62': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot63': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot7': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot8': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot9': dict({
+        'plainParams': 'default',
+      }),
+      'MultiSampleOsc': list([
+        dict({
+          'kUIParamMultiSampleOverviewMouseTag': 0.0,
+        }),
+        dict({
+          'kUIParamMultiSampleOverviewMouseTag': 0.0,
+        }),
+        dict({
+          'kUIParamMultiSampleOverviewMouseTag': 0.0,
+        }),
+      ]),
+      'Osc': list([
+        dict({
+          'kUIParamAutoSyncSlicing': 0.0,
+          'kUIParamShowMarkerAnimations': 0.0,
+          'kUIParamZoomToStartEnd': 0.0,
+        }),
+        dict({
+          'kUIParamAutoSyncSlicing': 0.0,
+          'kUIParamShowMarkerAnimations': 0.0,
+          'kUIParamZoomToStartEnd': 0.0,
+        }),
+        dict({
+          'kUIParamAutoSyncSlicing': 0.0,
+          'kUIParamShowMarkerAnimations': 0.0,
+          'kUIParamZoomToStartEnd': 0.0,
+        }),
+        dict({
+          'kUIParamAutoSyncSlicing': 0.0,
+          'kUIParamShowMarkerAnimations': 0.0,
+          'kUIParamZoomToStartEnd': 0.0,
+        }),
+        dict({
+          'kUIParamAutoSyncSlicing': 0.0,
+          'kUIParamShowMarkerAnimations': 0.0,
+          'kUIParamZoomToStartEnd': 0.0,
+        }),
+      ]),
+      'Oscillator0': dict({
+        'GranularOsc0': dict({
+          'plainParams': 'default',
+        }),
+        'MultiSampleOsc0': dict({
+          'plainParams': 'default',
+        }),
+        'SampleOsc0': dict({
+          'plainParams': 'default',
+        }),
+        'SpectralOsc0': dict({
+          'plainParams': 'default',
+        }),
+        'WTOsc0': dict({
+          'flex': dict({
+            'curveVals': list([
+              0.4999999701976776,
+              0.4999999701976776,
+            ]),
+            'numPoints': 1,
+            'xVals': list([
+              0.0,
+              1.0,
+            ]),
+            'yVals': list([
+              1.0,
+              0.0,
+            ]),
+          }),
+          'numChannels': 1,
+          'numFrames': 14336,
+          'plainParams': dict({
+            'kParamTablePos': 136.32894790172577,
+            'kParamWarp': 0.34210529923439026,
+            'kParamWarpMenu': 'kPD_OSC',
+          }),
+          'relativePathToWT': '/Analog/Basic Shapes.wav',
+          'sampleRate': 44100,
+        }),
+        'plainParams': 'default',
+      }),
+      'Oscillator1': dict({
+        'GranularOsc1': dict({
+          'plainParams': 'default',
+        }),
+        'MultiSampleOsc1': dict({
+          'plainParams': 'default',
+        }),
+        'SampleOsc1': dict({
+          'plainParams': 'default',
+        }),
+        'SpectralOsc1': dict({
+          'plainParams': 'default',
+        }),
+        'WTOsc1': dict({
+          'flex': dict({
+            'curveVals': list([
+              0.4999999701976776,
+              0.4999999701976776,
+            ]),
+            'numPoints': 1,
+            'xVals': list([
+              0.0,
+              1.0,
+            ]),
+            'yVals': list([
+              1.0,
+              0.0,
+            ]),
+          }),
+          'numChannels': 1,
+          'numFrames': 20480,
+          'plainParams': dict({
+            'kParamInitialPhase': 137.36842274665833,
+            'kParamTablePos': 44.61841805279255,
+            'kParamWarp': 0.2719297409057617,
+            'kParamWarpMenu': 'kSync',
+            'kParamWarpVar': 0.5,
+          }),
+          'relativePathToWT': '/Digital/Shrats.wav',
+          'sampleRate': 44100,
+        }),
+        'plainParams': dict({
+          'kParamDetune': 0.10534009412641954,
+          'kParamEnable': 1.0,
+          'kParamOctave': 2.0,
+          'kParamPan': 25.0,
+          'kParamUnison': 2.0,
+        }),
+      }),
+      'Oscillator2': dict({
+        'GranularOsc2': dict({
+          'plainParams': 'default',
+        }),
+        'MultiSampleOsc2': dict({
+          'plainParams': 'default',
+        }),
+        'SampleOsc2': dict({
+          'plainParams': 'default',
+        }),
+        'SpectralOsc2': dict({
+          'plainParams': 'default',
+        }),
+        'WTOsc2': dict({
+          'flex': dict({
+          }),
+          'numChannels': 1,
+          'numFrames': 18432,
+          'plainParams': 'default',
+          'relativePathToWT': 'S2 Tables/Default Shapes.wav',
+          'sampleRate': 44100,
+        }),
+        'plainParams': 'default',
+      }),
+      'Oscillator3': dict({
+        'NoiseOsc3': dict({
+          'detuneFactor': 0.4758218478413068,
+          'numChannels': 1,
+          'numFrames': 40855,
+          'plainParams': dict({
+            'kParamColor': 0.6885964870452881,
+          }),
+          'relativePathToNoiseSample': '/Organics/Air Can 2.wav',
+          'sampleRate': 44100,
+        }),
+        'plainParams': dict({
+          'kParamEnable': 1.0,
+        }),
+      }),
+      'Oscillator4': dict({
+        'SubOsc4': dict({
+          'plainParams': 'default',
+        }),
+        'plainParams': dict({
+          'kParamEnable': 1.0,
+          'kParamVolume': 0.5625,
+        }),
+      }),
+      'PitchQuantizer0': dict({
+        'plainParams': 'default',
+        'scale': list([
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+        ]),
+        'scaleName': 'Major',
+      }),
+      'RetriggerState0': dict({
+        'plainParams': 'default',
+      }),
+      'RoutingSlot0': dict({
+        'plainParams': 'default',
+      }),
+      'RoutingSlot1': dict({
+        'plainParams': dict({
+          'kParamRoutingDest': 'kRoutingDestFilter',
+        }),
+      }),
+      'RoutingSlot2': dict({
+        'plainParams': 'default',
+      }),
+      'RoutingSlot3': dict({
+        'plainParams': 'default',
+      }),
+      'RoutingSlot4': dict({
+        'plainParams': dict({
+          'kParamRoutingDest': 'kRoutingDestDirect',
+        }),
+      }),
+      'RoutingSlot5': dict({
+        'plainParams': 'default',
+      }),
+      'RoutingSlot6': dict({
+        'plainParams': 'default',
+      }),
+      'SerumGUI': dict({
+        'kUIParamShowKeyboard': 1.0,
+        'kUIParamShowMidiOut': 0.0,
+      }),
+      'SpectralOsc': list([
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+          'kUIParamShowWaveformDisplay': 0.0,
+        }),
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+          'kUIParamShowWaveformDisplay': 0.0,
+        }),
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+          'kUIParamShowWaveformDisplay': 0.0,
+        }),
+      ]),
+      'VoiceFilter0': dict({
+        'plainParams': dict({
+          'kParamEnable': 1.0,
+          'kParamFreq': 0.20175442099571228,
+          'kParamReso': 0.0,
+          'kParamStereo': 23.684212565422058,
+          'kParamType': 'LBH12',
+        }),
+      }),
+      'VoiceFilter1': dict({
+        'plainParams': 'default',
+      }),
+      'VoicePanel0': dict({
+        'displayName': '',
+        'plainParams': 'default',
+      }),
+      'WTOsc': list([
+        dict({
+          'kUIParamWTOverviewMouseTag': 0.0,
+        }),
+        dict({
+          'kUIParamWTOverviewMouseTag': 0.0,
+        }),
+        dict({
+          'kUIParamWTOverviewMouseTag': 0.0,
+        }),
+      ]),
+      'arpBankDisplayName': '',
+      'clipBankDisplayName': '',
+      'fileType': 'SerumPreset',
+      'lockOversampling': False,
+      'lockTuning': False,
+      'mpeConfig': 0,
+      'mpeEnabled': False,
+      'mpePitchBendRange': 48,
+      'presetAuthor': 'Celestiate',
+      'presetDescription': 'GravitasCreate.com',
+      'presetName': 'BASS - Airy - Celestiate',
+      'product': 'Serum2',
+      'productVersion': '2.0.17',
+      'scalars': dict({
+        'note': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'legato': True,
+          'numPoints': 1,
+          'xVals': list([
+            0.0,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+          ]),
+        }),
+        'velo': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'legato': True,
+          'numPoints': 1,
+          'xVals': list([
+            0.0,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+          ]),
+        }),
+      }),
+      'tags': list([
+        'Wavetable',
+        'Mono',
+      ]),
+      'url': 'https://xferrecords.com/',
+      'vendor': 'Xfer Records',
+      'version': 7.0,
+    }),
+    'metadata': dict({
+      'fileType': 'SerumPreset',
+      'hash': '2903d257d8f3efeb21d6c84c0fa5abca',
+      'presetAuthor': 'Test123',
+      'presetDescription': 'Test123',
+      'presetName': 'Test123',
+      'product': 'Serum2',
+      'productVersion': '2.0.17',
+      'tags': list([
+        'Wavetable',
+        'Mono',
+      ]),
+      'url': 'https://xferrecords.com/',
+      'vendor': 'Xfer Records',
+      'version': 7.0,
+    }),
+  })
+# ---
+# name: test_unpack_preset_snapshot
+  dict({
+    'data': dict({
+      'Arp0': dict({
+        'plainParams': 'default',
+      }),
+      'ArpClip0': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip1': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip10': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip11': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip2': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip3': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip4': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip5': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip6': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip7': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip8': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ArpClip9': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ClipPlayer': dict({
+        'kUIParamPianoRollNotePreview': 1.0,
+        'kUIParamPreviewClip': 0.0,
+        'kUIParamSelectedClip': 0.0,
+      }),
+      'ClipPlayer0': dict({
+        'plainParams': 'default',
+      }),
+      'Env0': dict({
+        'plainParams': dict({
+          'kParamAttack': 0.0005153631860372542,
+          'kParamCurve1': 49.950000643730164,
+          'kParamCurve2': 66.60000085830688,
+          'kParamCurve3': 66.60000085830688,
+          'kParamRelease': 0.014700845522658545,
+        }),
+      }),
+      'Env1': dict({
+        'plainParams': dict({
+          'kParamAttack': 0.0005153631860372542,
+          'kParamCurve1': 49.950000643730164,
+          'kParamCurve2': 66.60000085830688,
+          'kParamCurve3': 66.60000085830688,
+          'kParamRelease': 0.014700845522658545,
+        }),
+      }),
+      'Env2': dict({
+        'plainParams': dict({
+          'kParamAttack': 0.0005153631860372542,
+          'kParamCurve1': 49.950000643730164,
+          'kParamCurve2': 66.60000085830688,
+          'kParamCurve3': 66.60000085830688,
+          'kParamRelease': 0.014700845522658545,
+        }),
+      }),
+      'Env3': dict({
+        'plainParams': dict({
+          'kParamCurve1': 50.0,
+          'kParamCurve2': 66.60000000000001,
+          'kParamCurve3': 66.60000000000001,
+        }),
+      }),
+      'FXRack0': dict({
+        'FX': list([
+          dict({
+            'FXHyperD': dict({
+              'lfo': list([
+                list([
+                  0.9194614291191101,
+                  0.08975490182638168,
+                  0.5845403671264648,
+                  0.286531537771225,
+                  0.8271082043647766,
+                  0.6682987809181213,
+                  0.08552838116884232,
+                  0.7215851545333862,
+                ]),
+                list([
+                  0.9865029454231262,
+                  0.8898591995239258,
+                  0.6562260389328003,
+                  0.600176215171814,
+                  0.5416178703308105,
+                  0.5513129234313965,
+                  0.8703054189682007,
+                  0.1764964610338211,
+                ]),
+              ]),
+              'plainParams': dict({
+                'kParamDetune': 52.19298005104065,
+                'kParamDimESize': 68.85964870452881,
+                'kParamRate': 4.473684728145599,
+                'kParamUnison': 4.000000178813934,
+                'kParamWet': 38.15789520740509,
+              }),
+            }),
+            'kUIParamMixOrGainDimE': 0.0,
+            'kUIParamMixOrGainHyper': 0.0,
+            'type': 9,
+          }),
+          dict({
+            'FXDistortion': dict({
+              'plainParams': dict({
+                'kParamDrive': 76.31579041481018,
+                'kParamFreq': 0.4678362573099415,
+                'kParamMode': 'kDiode2',
+                'kParamWet': 77.63158082962036,
+              }),
+            }),
+            'flex': list([
+              dict({
+                'curveVals': list([
+                  0.4999999701976776,
+                  0.4999999701976776,
+                ]),
+                'numPoints': 1,
+                'xVals': list([
+                  0.0,
+                  1.0,
+                ]),
+                'yVals': list([
+                  1.0,
+                  0.0,
+                ]),
+              }),
+              dict({
+                'curveVals': list([
+                  0.4999999701976776,
+                  0.4999999701976776,
+                ]),
+                'numPoints': 1,
+                'xVals': list([
+                  0.0,
+                  1.0,
+                ]),
+                'yVals': list([
+                  1.0,
+                  0.0,
+                ]),
+              }),
+            ]),
+            'kUIParamMixOrGain': 0.0,
+            'type': 0,
+          }),
+          dict({
+            'FXComp': dict({
+              'plainParams': dict({
+                'kParamAttack': 90.09100715319826,
+                'kParamCompensatedWetDry': 0.0,
+                'kParamGain0': 4.6,
+                'kParamGain2': 4.6,
+                'kParamMakeup': 1.7900507059481465,
+                'kParamRatioBelow': 0.75,
+                'kParamRelease': 89.92907295688329,
+              }),
+            }),
+            'kUIParamMixOrGain': 0.0,
+            'type': 5,
+          }),
+        ]),
+        'displayName': '',
+        'plainParams': 'default',
+      }),
+      'FXRack1': dict({
+        'FX': list([
+        ]),
+        'displayName': '',
+        'plainParams': 'default',
+      }),
+      'FXRack2': dict({
+        'FX': list([
+        ]),
+        'displayName': '',
+        'plainParams': 'default',
+      }),
+      'Filter': dict({
+        'kUIParamMixOrGain': 0.0,
+      }),
+      'Global0': dict({
+        'plainParams': dict({
+          'kParamLimitSameNotePolyphony': 1.0,
+          'kParamMasterVolume': 0.29297234014183177,
+          'kParamMonoToggle': 1.0,
+          'kParamPolyCount': 16.0,
+          'kParamS1Compatibility': 1.0,
+        }),
+      }),
+      'GranularOsc': list([
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+        }),
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+        }),
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+        }),
+      ]),
+      'LFO0': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+        }),
+      }),
+      'LFO1': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+          'kParamRate': 0.6208409237655205,
+        }),
+      }),
+      'LFO2': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+          'kParamRate': 0.5829385022370225,
+        }),
+      }),
+      'LFO3': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+          'kParamRate': 0.03880257421413955,
+        }),
+      }),
+      'LFO4': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+        }),
+      }),
+      'LFO5': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+        }),
+      }),
+      'LFO6': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+        }),
+      }),
+      'LFO7': dict({
+        'curveData': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'loopbackPointNum': 65,
+          'numPoints': 2,
+          'xVals': list([
+            0.0,
+            0.5,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+            1.0,
+          ]),
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamDefaultMode': 0.0,
+          'kParamMode': 'Free',
+        }),
+      }),
+      'LFO8': dict({
+        'curveData': dict({
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamBeatSync': 0.0,
+          'kParamDefaultMode': 0.0,
+          'kParamDotted': 1.0,
+          'kParamRate': 0.10000069729266844,
+          'kParamRate10x': 1.0,
+          'kParamTriplets': 1.0,
+          'kParamType': 'Lorenz',
+        }),
+      }),
+      'LFO9': dict({
+        'curveData': dict({
+        }),
+        'pathData': dict({
+        }),
+        'plainParams': dict({
+          'kParamBeatSync': 0.0,
+          'kParamDefaultMode': 0.0,
+          'kParamDotted': 1.0,
+          'kParamRate': 0.10000069729266844,
+          'kParamRate10x': 1.0,
+          'kParamTriplets': 1.0,
+          'kParamType': 'Rossler',
+        }),
+      }),
+      'LFOPointModBus0': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus1': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus10': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus11': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus12': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus13': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus14': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus15': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus2': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus3': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus4': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus5': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus6': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus7': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus8': dict({
+        'plainParams': 'default',
+      }),
+      'LFOPointModBus9': dict({
+        'plainParams': 'default',
+      }),
+      'Macro0': dict({
+        'name': 'Macro 1',
+        'plainParams': dict({
+          'kParamValue': 82.8947365283966,
+        }),
+      }),
+      'Macro1': dict({
+        'plainParams': 'default',
+      }),
+      'Macro2': dict({
+        'plainParams': 'default',
+      }),
+      'Macro3': dict({
+        'plainParams': 'default',
+      }),
+      'Macro4': dict({
+        'plainParams': 'default',
+      }),
+      'Macro5': dict({
+        'plainParams': 'default',
+      }),
+      'Macro6': dict({
+        'plainParams': 'default',
+      }),
+      'Macro7': dict({
+        'plainParams': 'default',
+      }),
+      'MidiClip0': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip1': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip10': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip11': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip2': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip3': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip4': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip5': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip6': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip7': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip8': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'MidiClip9': dict({
+        'clip': dict({
+        }),
+        'plainParams': 'default',
+      }),
+      'ModSlot0': dict({
+        'destModuleID': 0,
+        'destModuleParamID': 0,
+        'destModuleParamName': 'kParamWarp',
+        'destModuleTypeString': 'WTOsc',
+        'plainParams': dict({
+          'kParamAmount': -30.70175051689148,
+        }),
+        'source': list([
+          7,
+          0,
+        ]),
+      }),
+      'ModSlot1': dict({
+        'destModuleID': 0,
+        'destModuleParamID': 3,
+        'destModuleParamName': 'kParamFreq',
+        'destModuleTypeString': 'VoiceFilter',
+        'plainParams': dict({
+          'kParamAmount': 15.350878238677979,
+        }),
+        'source': list([
+          8,
+          0,
+        ]),
+      }),
+      'ModSlot10': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot11': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot12': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot13': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot14': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot15': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot16': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot17': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot18': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot19': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot2': dict({
+        'destModuleID': 1,
+        'destModuleParamID': 0,
+        'destModuleParamName': 'kParamWarp',
+        'destModuleTypeString': 'WTOsc',
+        'plainParams': dict({
+          'kParamAmount': 0.1999974250793457,
+        }),
+        'source': list([
+          9,
+          0,
+        ]),
+      }),
+      'ModSlot20': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot21': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot22': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot23': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot24': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot25': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot26': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot27': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot28': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot29': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot3': dict({
+        'destModuleID': 3,
+        'destModuleParamID': 0,
+        'destModuleParamName': 'kParamColor',
+        'destModuleTypeString': 'NoiseOsc',
+        'plainParams': dict({
+          'kParamAmount': -61.40352487564087,
+          'kParamBipolar': 1.0,
+        }),
+        'source': list([
+          25,
+          0,
+        ]),
+      }),
+      'ModSlot30': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot31': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot32': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot33': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot34': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot35': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot36': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot37': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot38': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot39': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot4': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot40': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot41': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot42': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot43': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot44': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot45': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot46': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot47': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot48': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot49': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot5': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot50': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot51': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot52': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot53': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot54': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot55': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot56': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot57': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot58': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot59': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot6': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot60': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot61': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot62': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot63': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot7': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot8': dict({
+        'plainParams': 'default',
+      }),
+      'ModSlot9': dict({
+        'plainParams': 'default',
+      }),
+      'MultiSampleOsc': list([
+        dict({
+          'kUIParamMultiSampleOverviewMouseTag': 0.0,
+        }),
+        dict({
+          'kUIParamMultiSampleOverviewMouseTag': 0.0,
+        }),
+        dict({
+          'kUIParamMultiSampleOverviewMouseTag': 0.0,
+        }),
+      ]),
+      'Osc': list([
+        dict({
+          'kUIParamAutoSyncSlicing': 0.0,
+          'kUIParamShowMarkerAnimations': 0.0,
+          'kUIParamZoomToStartEnd': 0.0,
+        }),
+        dict({
+          'kUIParamAutoSyncSlicing': 0.0,
+          'kUIParamShowMarkerAnimations': 0.0,
+          'kUIParamZoomToStartEnd': 0.0,
+        }),
+        dict({
+          'kUIParamAutoSyncSlicing': 0.0,
+          'kUIParamShowMarkerAnimations': 0.0,
+          'kUIParamZoomToStartEnd': 0.0,
+        }),
+        dict({
+          'kUIParamAutoSyncSlicing': 0.0,
+          'kUIParamShowMarkerAnimations': 0.0,
+          'kUIParamZoomToStartEnd': 0.0,
+        }),
+        dict({
+          'kUIParamAutoSyncSlicing': 0.0,
+          'kUIParamShowMarkerAnimations': 0.0,
+          'kUIParamZoomToStartEnd': 0.0,
+        }),
+      ]),
+      'Oscillator0': dict({
+        'GranularOsc0': dict({
+          'plainParams': 'default',
+        }),
+        'MultiSampleOsc0': dict({
+          'plainParams': 'default',
+        }),
+        'SampleOsc0': dict({
+          'plainParams': 'default',
+        }),
+        'SpectralOsc0': dict({
+          'plainParams': 'default',
+        }),
+        'WTOsc0': dict({
+          'flex': dict({
+            'curveVals': list([
+              0.4999999701976776,
+              0.4999999701976776,
+            ]),
+            'numPoints': 1,
+            'xVals': list([
+              0.0,
+              1.0,
+            ]),
+            'yVals': list([
+              1.0,
+              0.0,
+            ]),
+          }),
+          'numChannels': 1,
+          'numFrames': 14336,
+          'plainParams': dict({
+            'kParamTablePos': 136.32894790172577,
+            'kParamWarp': 0.34210529923439026,
+            'kParamWarpMenu': 'kPD_OSC',
+          }),
+          'relativePathToWT': '/Analog/Basic Shapes.wav',
+          'sampleRate': 44100,
+        }),
+        'plainParams': 'default',
+      }),
+      'Oscillator1': dict({
+        'GranularOsc1': dict({
+          'plainParams': 'default',
+        }),
+        'MultiSampleOsc1': dict({
+          'plainParams': 'default',
+        }),
+        'SampleOsc1': dict({
+          'plainParams': 'default',
+        }),
+        'SpectralOsc1': dict({
+          'plainParams': 'default',
+        }),
+        'WTOsc1': dict({
+          'flex': dict({
+            'curveVals': list([
+              0.4999999701976776,
+              0.4999999701976776,
+            ]),
+            'numPoints': 1,
+            'xVals': list([
+              0.0,
+              1.0,
+            ]),
+            'yVals': list([
+              1.0,
+              0.0,
+            ]),
+          }),
+          'numChannels': 1,
+          'numFrames': 20480,
+          'plainParams': dict({
+            'kParamInitialPhase': 137.36842274665833,
+            'kParamTablePos': 44.61841805279255,
+            'kParamWarp': 0.2719297409057617,
+            'kParamWarpMenu': 'kSync',
+            'kParamWarpVar': 0.5,
+          }),
+          'relativePathToWT': '/Digital/Shrats.wav',
+          'sampleRate': 44100,
+        }),
+        'plainParams': dict({
+          'kParamDetune': 0.10534009412641954,
+          'kParamEnable': 1.0,
+          'kParamOctave': 2.0,
+          'kParamPan': 25.0,
+          'kParamUnison': 2.0,
+        }),
+      }),
+      'Oscillator2': dict({
+        'GranularOsc2': dict({
+          'plainParams': 'default',
+        }),
+        'MultiSampleOsc2': dict({
+          'plainParams': 'default',
+        }),
+        'SampleOsc2': dict({
+          'plainParams': 'default',
+        }),
+        'SpectralOsc2': dict({
+          'plainParams': 'default',
+        }),
+        'WTOsc2': dict({
+          'flex': dict({
+          }),
+          'numChannels': 1,
+          'numFrames': 18432,
+          'plainParams': 'default',
+          'relativePathToWT': 'S2 Tables/Default Shapes.wav',
+          'sampleRate': 44100,
+        }),
+        'plainParams': 'default',
+      }),
+      'Oscillator3': dict({
+        'NoiseOsc3': dict({
+          'detuneFactor': 0.4758218478413068,
+          'numChannels': 1,
+          'numFrames': 40855,
+          'plainParams': dict({
+            'kParamColor': 0.6885964870452881,
+          }),
+          'relativePathToNoiseSample': '/Organics/Air Can 2.wav',
+          'sampleRate': 44100,
+        }),
+        'plainParams': dict({
+          'kParamEnable': 1.0,
+        }),
+      }),
+      'Oscillator4': dict({
+        'SubOsc4': dict({
+          'plainParams': 'default',
+        }),
+        'plainParams': dict({
+          'kParamEnable': 1.0,
+          'kParamVolume': 0.5625,
+        }),
+      }),
+      'PitchQuantizer0': dict({
+        'plainParams': 'default',
+        'scale': list([
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+        ]),
+        'scaleName': 'Major',
+      }),
+      'RetriggerState0': dict({
+        'plainParams': 'default',
+      }),
+      'RoutingSlot0': dict({
+        'plainParams': 'default',
+      }),
+      'RoutingSlot1': dict({
+        'plainParams': dict({
+          'kParamRoutingDest': 'kRoutingDestFilter',
+        }),
+      }),
+      'RoutingSlot2': dict({
+        'plainParams': 'default',
+      }),
+      'RoutingSlot3': dict({
+        'plainParams': 'default',
+      }),
+      'RoutingSlot4': dict({
+        'plainParams': dict({
+          'kParamRoutingDest': 'kRoutingDestDirect',
+        }),
+      }),
+      'RoutingSlot5': dict({
+        'plainParams': 'default',
+      }),
+      'RoutingSlot6': dict({
+        'plainParams': 'default',
+      }),
+      'SerumGUI': dict({
+        'kUIParamShowKeyboard': 1.0,
+        'kUIParamShowMidiOut': 0.0,
+      }),
+      'SpectralOsc': list([
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+          'kUIParamShowWaveformDisplay': 0.0,
+        }),
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+          'kUIParamShowWaveformDisplay': 0.0,
+        }),
+        dict({
+          'kUIParamDisplayXYInput': 0.0,
+          'kUIParamShowWaveformDisplay': 0.0,
+        }),
+      ]),
+      'VoiceFilter0': dict({
+        'plainParams': dict({
+          'kParamEnable': 1.0,
+          'kParamFreq': 0.20175442099571228,
+          'kParamReso': 0.0,
+          'kParamStereo': 23.684212565422058,
+          'kParamType': 'LBH12',
+        }),
+      }),
+      'VoiceFilter1': dict({
+        'plainParams': 'default',
+      }),
+      'VoicePanel0': dict({
+        'displayName': '',
+        'plainParams': 'default',
+      }),
+      'WTOsc': list([
+        dict({
+          'kUIParamWTOverviewMouseTag': 0.0,
+        }),
+        dict({
+          'kUIParamWTOverviewMouseTag': 0.0,
+        }),
+        dict({
+          'kUIParamWTOverviewMouseTag': 0.0,
+        }),
+      ]),
+      'arpBankDisplayName': '',
+      'clipBankDisplayName': '',
+      'fileType': 'SerumPreset',
+      'lockOversampling': False,
+      'lockTuning': False,
+      'mpeConfig': 0,
+      'mpeEnabled': False,
+      'mpePitchBendRange': 48,
+      'presetAuthor': 'Celestiate',
+      'presetDescription': 'GravitasCreate.com',
+      'presetName': 'BASS - Airy - Celestiate',
+      'product': 'Serum2',
+      'productVersion': '2.0.17',
+      'scalars': dict({
+        'note': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'legato': True,
+          'numPoints': 1,
+          'xVals': list([
+            0.0,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+          ]),
+        }),
+        'velo': dict({
+          'curveVals': list([
+            0.4999999701976776,
+            0.4999999701976776,
+          ]),
+          'legato': True,
+          'numPoints': 1,
+          'xVals': list([
+            0.0,
+            1.0,
+          ]),
+          'yVals': list([
+            1.0,
+            0.0,
+          ]),
+        }),
+      }),
+      'tags': list([
+        'Wavetable',
+        'Mono',
+      ]),
+      'url': 'https://xferrecords.com/',
+      'vendor': 'Xfer Records',
+      'version': 7.0,
+    }),
+    'metadata': dict({
+      'fileType': 'SerumPreset',
+      'hash': '2903d257d8f3efeb21d6c84c0fa5abca',
+      'presetAuthor': 'Test123',
+      'presetDescription': 'Test123',
+      'presetName': 'Test123',
+      'product': 'Serum2',
+      'productVersion': '2.0.17',
+      'tags': list([
+        'Wavetable',
+        'Mono',
+      ]),
+      'url': 'https://xferrecords.com/',
+      'vendor': 'Xfer Records',
+      'version': 7.0,
+    }),
+  })
+# ---
