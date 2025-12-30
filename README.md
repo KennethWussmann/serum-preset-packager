@@ -4,6 +4,10 @@ This CLI tool allows to unpack and pack `SerumPreset` files (and others) used by
 
 The file format was not open so far and it took a bit of reverse engineering to understand the file format.
 
+> [!TIP]
+> Looking for a `.SerumPreset` editor and organizer? [See preset.tools](https://preset.tools)<br/>
+> It's based on this project and offers an easy to use web-based editor for preset metadata.
+
 ## Usage
 
 1. Clone the repo
@@ -59,4 +63,5 @@ Check the implementation for details. Yet unclear is the CBOR data itself. We ca
 
 ## Related Projects
 
+- [preset.tools](https://preset.tools) - a web-based `.SerumPreset` metadata editor and collection organizer.
 - [node-serum2-preset-packager](https://github.com/CharlesBT/node-serum2-preset-packager) - based on this research, CLI and TypeScript, Node API.
