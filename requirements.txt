@@ -1,5 +1,5 @@
 cbor2==5.9.0
 msgpack==1.1.2
 zstandard==0.25.0
-pytest==9.0.2
+pytest==9.0.3
 syrupy==5.1.0
