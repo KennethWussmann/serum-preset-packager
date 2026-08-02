@@ -1,7 +1,7 @@
 # Project-specific rules
 *.SerumPreset
-!/test/*.SerumPreset
-!/test/*.json
+!/test/fixtures/*.SerumPreset
+!/test/fixtures/*.json
 *.json
 
 # Python bytecode
