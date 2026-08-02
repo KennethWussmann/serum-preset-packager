@@ -13,10 +13,10 @@ install:
 	python -m pip install -r requirements.txt
 
 test:
-	python -m pytest tests/ -v
+	python -m pytest test/ -v
 
 test-update:
-	python -m pytest tests/ -v --snapshot-update
+	python -m pytest test/ -v --snapshot-update
 
 update-deps:
 	python -m pip install --upgrade pip
