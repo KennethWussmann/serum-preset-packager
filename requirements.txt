@@ -1,5 +1,5 @@
-cbor2==6.1.4
-msgpack==1.2.2
+cbor2==6.1.5
+msgpack==1.2.3
 zstandard==0.25.0
 pytest==9.1.1
 syrupy==6.1.1
