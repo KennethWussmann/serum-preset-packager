@@ -1,4 +1,4 @@
-cbor2==6.2.0.post2
+cbor2==6.2.1
 msgpack==1.2.4
 zstandard==0.25.0
 pytest==9.2.0
